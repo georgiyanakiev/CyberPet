@@ -63,7 +63,7 @@ namespace CyberPet
                     Console.WriteLine(" You did not type 1, 2 or 3");
                     synth.Speak(" You did not type 1, 2 or 3");
                     Console.WriteLine("Bye Bye");
-                    synth.Speak("Bye! Bye!");
+                    synth.Speak("ByeBye!");
                     Console.ReadLine();
                     break;
             }
