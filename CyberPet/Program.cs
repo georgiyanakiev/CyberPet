@@ -33,36 +33,37 @@ namespace CyberPet
             Console.ReadLine();
 
 
-            const string a = " You pressed a";
-            const string b = " You pressed b";
-            const string c = " You pressed c";
+            const string a = " You pressed 1";
+            const string b = " You pressed 2";
+            const string c = " You pressed 3";
 
 
 
             switch (input)
             {
-                case "a":   
+                case "1":   
                     ShowData(a);        
                     Console.WriteLine("Going to Eat!");
                     Console.ReadLine();
                     break;
 
-                case "b":   
+                case "2":   
                     ShowData(b);    
                     Console.WriteLine("Going to sleep!");
                     Console.ReadLine();
                     break;
 
-                case "c":
+                case "3":
                     ShowData(c);
                     Console.WriteLine("Exit");
                     Console.ReadLine();
                     break;
 
+
                 default:
                     Console.WriteLine(" You did not type 1, 2 or 3");
                     synth.Speak(" You did not type 1, 2 or 3");
-                    Console.WriteLine("Bye Bye");
+                    Console.WriteLine("Bye, Bye!");
                     synth.Speak("ByeBye!");
                     Console.ReadLine();
                     break;
